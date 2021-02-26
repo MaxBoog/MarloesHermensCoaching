@@ -1,0 +1,46 @@
+.header
+{
+
+    .header-text
+    {
+        font-size: 130px;
+        max-width: 250px;
+        margin-right: 170px;
+        color: $white;
+    }
+
+    .centered {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+
+    .left
+    {
+        height: 100vh;
+        background-color: black;
+    }
+
+    .right
+    {
+        height: 100vh;  
+        background-color: white;
+    }
+
+    .subtext
+    {
+        padding-top: 3rem;
+        font-size: $font-l;
+        color: $black;
+    }
+
+    .small-subtext
+    {
+        font-size: $font-s;
+        padding-top: 2rem;
+        color: $black;
+    }
+
+}

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no">
+    <title>Del Bello Webdesign</title>
+    <meta name="description" content="Del Bello Webdesign ontwerpt originele front-end websites">
+    <meta name="keywords" content="Del Bello Webdesign,Webdesign,Responsive webdesign,Responsive,Mobile first,Bootstrap,Kleine bedrijven,Organisaties,Non-profits,Persoonlijke websites,Website,Site,Simpel webdesign,Blog,Start-ups,Zzp'ers,Zelfstandigen">
+
+    <!-- favicon -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png?v=M4K3ygXqnj">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png?v=M4K3ygXqnj">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png?v=M4K3ygXqnj">
+    <link rel="manifest" href="/assets/img/favicons/site.webmanifest?v=M4K3ygXqnj">
+    <link rel="mask-icon" href="/assets/img/favicons/safari-pinned-tab.svg?v=M4K3ygXqnj" color="#8b2f97">
+    <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico?v=M4K3ygXqnj">
+    <meta name="apple-mobile-web-app-title" content="Del Bello Webdesign">
+    <meta name="application-name" content="Del Bello Webdesign">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml?v=M4K3ygXqnj">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/master.css">
+
+</head>
+<body>
+
+    <script>
+        document.querySelector("body").style.display = "none";
+        document.querySelector("html").classList.add("spinner-1");
+
+        setTimeout(function () {
+            document.querySelector("html").classList.remove("spinner-1");
+            document.querySelector("body").style.display = "block";
+        }, 1000);
+    </script>
+
+    <!-- nav -->
+    <nav id="nav">
+        <button class="toggle" id="toggle">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </button>
+        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="/en/index.html">EN</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="container-fluid header">
+            <div class="row">
+                <div class="col-md-6 left">
+                    <div class="centered">
+                        <h1 class="header-text">Del Bello Web Design<span style="color: #be3030">.</span></h1>
+                        <a href="#about" class="arrow-container">
+                            <div class="arrow">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="particles-js" style="height: 100vh;"></div>
+                </div>
+                <div class="col-md-6 text-center right">
+                    <div class="centered">
+                        <img src="assets/img/images/me.jpg" alt="Del Bello Webdesign" class="img-fluid mx-auto d-block" style="border-radius: 25%;">
+                        <h1 class="subtext">Hi, Ik ben Max</h1>
+                        <h3 class="small-subtext">een webdesigner uit Amsterdam.</h3>
+                        <hr class="hr-s-r">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-padding">
+                    
+                    <h1 class="heading-1">Een klein stukje over mijzelf <span style="color: blue">.</span></h1>
+                    <p>Hi! Ik ben Max, een webdesigner uit Amsterdam en de oprichter van Del Bello Webdesign. Ik studeer Informatiekunde aan de Universiteit Utrecht en daarnaast ontwerp ik websites voor iedereen die een mooie site nodig heeft. Vaak hebben mensen weinig tijd of niet de juiste kennis om een website zelf te ontwerpen. Daarom maak ik het voor u mogelijk om snel en goedkoop een prachtige website online te krijgen. Voor mijn front-end designs gebruik ik HTML, SCSS en JavaScript. </p>
+                    <hr class="hr-s-b">
+
+                </div>
+                <div class="col-md-6 col-padding col-black-grey">
+                    <div class="row" style="background-color: white; padding: 3rem;">
+                        <div class="col text-center">
+                            <i class="fas fa-expand-arrows-alt fa-4x short-icon"></i>
+                            <h3 class="short-text">Responsive</h3>
+                            <p class="short-subtext">de hedendaagse webdesign standaard</p>
+                        </div>
+                        <div class="col text-center">
+                            <i class="fas fa-cog fa-spin fa-4x short-icon"></i>
+                            <h3 class="short-text">Light weight</h3>
+                            <p class="short-subtext">razend snelle laadtijden</p>
+                        </div>
+                        <div class="col text-center">
+                            <i class="fas fa-paint-brush fa-4x short-icon"></i>
+                            <h3 class="short-text">Unique design</h3>
+                            <p class="short-subtext">stuk voor stuk uniek ontworpen designs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container-fluid">
+            
+            <h1 class="text-center heading-1" style="margin-bottom: 12rem; padding-top:5rem;">Een paar voorbeelden van mijn werk <span style="color:#52de97">.</span></h1>
+            
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="row no-gutters">
+                          <div class="col-lg-6">
+                            <img src="assets/img/images/nieuwekeizer-gallery.png" class="card-img" alt="Nieuwe Keizer Vastgoedbeheer">
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="card-body">
+                              <h5 class="card-title">Nieuwe Keizer Vastgoedbeheer</h5>
+                              <p class="card-text">Een zakelijke website op maat ontworpen voor Nieuwe Keizer Vastgoedbeheer.</p>
+                              <p><button type="button" class="btn btn-cta-primary" data-toggle="modal" data-target=".modal1">Bekijk de site live <i class="fas fa-external-link-alt"></i></button></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card" style="margin-top: 12rem;">
+                        <div class="row no-gutters">
+                            <div class="col-lg-6 order-md-first">
+                                <div class="card-body">
+                                    <h5 class="card-title">La Aventura</h5>
+                                    <p class="card-text">Voor La Aventura was het belangrijk om met afbeeldingen een duidelijk beeld van de tours te geven. </p>
+                                    <p><button type="button" class="btn btn-cta-primary" data-toggle="modal" data-target=".modal2">Bekijk de site live <i class="fas fa-external-link-alt"></i></button></p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-first">
+                                <img src="assets/img/images/laaventura-gallery.png" class="card-img" alt="La Aventura">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="card" style="margin-top: 12rem;">
+                        <div class="row no-gutters">
+                            <div class="col-lg-6 order-first">
+                                <img src="assets/img/images/dekerk-gallery.png" class="card-img" alt="Café de Kerk">
+                            </div>
+                            <div class="col-lg-6 order-md-first">
+                                <div class="card-body">
+                                    <h5 class="card-title">Café de Kerk</h5>
+                                    <p class="card-text">Café de Kerk is de kroeg van elke ras Amsterdammer. Deze sfeer is overgebracht op de site.</p>
+                                    <p><button type="button" class="btn btn-cta-primary" data-toggle="modal" data-target=".modal3">Bekijk de site live <i class="fas fa-external-link-alt"></i></button></p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h1 class="heading-1 text-center" style="margin: 12rem 0 4rem 0;">Contactformulier <span style="color: #8b2f97;">.</span></h1>
+            <hr class="hr-s-p">
+            <div class="row">
+                <div class="col-md-12">
+                    <form id="contact-form" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                        <div class="messages"></div>
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                            <p class="hidden">
+                                                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                                                  </p>
+
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Voornaam *" required="required" data-error="Het invullen van uw voornaam is verplicht.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Achternaam *" required="required"
+                                            data-error="Het invullen van uw achternaam is verplicht.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Email *" required="required" data-error="Dit is geen geldig e-mailadres">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Telefoonnummer">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Uw bericht... *" rows="4" required="required"
+                                            data-error="Zonder bericht wordt het lastig om u te helpen."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <div data-netlify-recaptcha="true"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-send" value="Verstuur bericht">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container text-center">
+        <div class="row footer">
+            <div class="col-md-12">
+                <h1 class="copyright">&copy; Del Bello Webdesign <span style="color:#be3030;">.</span></h1>
+            </div>
+            <div class="col-md-12 mt-5">
+                <a href="https://www.facebook.com/delbellowebdesign/" target="_blank" class="social-button">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+                <a href="https://www.instagram.com/delbellowebdesign" target="_blank" class="social-button">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/max-boog-3665b1152/" target="_blank" class="social-button">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                </a>
+                <a href="mailto:delbellowebdesign@gmail.com" class="social-button">
+                    <i class="far fa-envelope fa-lg"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="social-panel-container">
+        <div class="social-panel">
+            <ul>
+                <li>
+                    <a href="mailto:delbellowebdesign@gmail.com" target="_blank" class="red">
+                        <i class="far fa-envelope fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/max-boog-3665b1152/" target="_blank" class="blue">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/delbellowebdesign" target="_blank" class="green">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/delbellowebdesign" target="_blank" class="purple">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <button class="btn floating-btn">
+        <i class="fas fa-share-alt-square fa-2x"></i>
+    </button>
+
+    <!-- modals -->
+
+    <div class="modal fade modal1" tabindex="-1" aria-labelledby="Modal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+            </div>
+                <iframe style="height: 80vh;" src="https://www.nieuwekeizer.nl"></iframe>
+            
+          </div>
+        </div>
+      </div>
+    <div class="modal fade modal2" tabindex="-1" aria-labelledby="Modal2" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+            </div>
+                <iframe style="height: 80vh;" src="https://www.laaventura.co"></iframe>
+            
+          </div>
+        </div>
+      </div>
+    <div class="modal fade modal3" tabindex="-1" aria-labelledby="Modal3" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+            </div>
+                <iframe style="height: 80vh;" src="https://www.dekerk.cafe"></iframe>
+            
+          </div>
+        </div>
+      </div>
+
+    <!-- scripts -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://kit.fontawesome.com/183c3c7f20.js" crossorigin="anonymous"></script>
+    <script src="assets/js/scripts.min.js"></script>
+
+    <script>
+        (function (b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function () {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = '//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-106401829-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+</html>

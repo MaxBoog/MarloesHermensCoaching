@@ -1,0 +1,63 @@
+.btn {
+  border: none;
+  &:link {
+    border: none;
+  }
+  &:visited {
+    border: none;
+  }
+  &:hover {
+    border: none;
+  }
+  &:active {
+    border: none;
+    outline: none;
+  }
+  &:focus
+  {
+    border: none;
+    outline: 0 !important;
+  }
+}
+
+.btn-cta-primary
+{
+  font-size: $font-xs;
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid $green !important;
+  border-radius: 0px;
+}
+
+.floating-btn {
+  border-radius: 0;
+  background-color: black;
+	color: $white;
+	cursor: pointer;
+	font-size: $font-s;
+	line-height: 20px;
+	padding: 10px 12.75px;
+	position: fixed;
+  bottom: 150px;
+  right: 0;
+  z-index: 1000;
+}
+
+.floating-btn:hover {
+  background-color: $white;
+	color: $black;
+}
+
+.floating-btn:focus {
+	outline: none;
+}
+
+.social-button
+{
+  color: $white;
+  margin: 0.5rem;
+  &:hover
+  {
+    color: $light-grey;
+  }
+}

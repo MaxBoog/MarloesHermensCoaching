@@ -1,0 +1,134 @@
+/*  
+	//////////////////////////////////////
+	//									                //
+	//		      BASE ELEMENTS			      //
+	//							                		//
+	//////////////////////////////////////
+*/
+
+// MAIN
+
+html {
+  font-size: 65.5%;
+}
+
+body {
+  position: relative;
+  font-size: $font-s !important;
+  font-family: $f-primary;
+  color: $white;
+  background: black;
+}
+
+h1,h2,h3,h4,h5
+{
+  font-family: $f-secondary;
+}
+
+
+// BASE
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.heading-1
+{
+  font-size: $font-xl;
+  padding-bottom: 1rem;
+}
+
+.hr-s-r
+{
+  position: relative;
+  padding-top: 2rem !important;
+  margin-top: 3rem !important;
+  border: transparent !important;
+}
+
+.hr-s-r::before
+{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 2px;
+    background: $red;
+}
+
+.hr-s-b
+{
+  @extend .hr-s-r;
+}
+
+.hr-s-b::before
+{
+  @extend .hr-s-r::before;
+  background: blue;
+}
+
+.hr-s-p
+{
+  @extend .hr-s-r;
+}
+
+.hr-s-p::before
+{
+  @extend .hr-s-r::before;
+  background: $purple;
+}
+
+// borders
+
+.border-5
+{
+  border: 3px solid $black;
+}
+
+
+// colors
+
+.black
+{
+    background-color: $black;
+}
+
+.grey
+{
+    background-color: $grey;
+}
+
+.light-grey
+{
+    background-color: $light-grey;
+}
+
+.blue
+{
+    background-color: $blue;
+}
+
+.white
+{
+  background-color: $white;
+}
+
+.green
+{
+  background-color: $green;
+}
+
+.red
+{
+  background-color: $red;
+}
+
+.purple
+{
+  background-color: $purple;
+}
