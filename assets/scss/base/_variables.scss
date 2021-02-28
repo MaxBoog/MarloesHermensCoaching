@@ -6,14 +6,16 @@
 	///////////////////////////////////////////
 */
 
-// fonts 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:700&display=swap');
-// colors
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=RocknRoll+One&display=swap");
+
+$color-primary: #f37121;
+$color-secondary: #111d5e;
 
 $black: #222222;
 $grey: #5b5656;
 $light-grey: #9c9797;
-$white: #eeeeee;
+$white: #ffffff;
 
 $red: #be3030;
 $orange: #ff7100;
@@ -24,8 +26,8 @@ $purple: #8b2f97;
 
 // font properties
 
-$f-primary: 'Open Sans', sans-serif;
-$f-secondary: 'Roboto Slab', serif;
+$f-primary: "Poppins", sans-serif;
+$f-secondary: "RocknRoll One", sans-serif;
 
 $font-xs: 14px;
 $font-s: 18px;

@@ -1,46 +1,32 @@
-.header
-{
+.banner-wrapper {
+  padding: 0;
+  margin-top: 5rem;
+}
 
-    .header-text
-    {
-        font-size: 130px;
-        max-width: 250px;
-        margin-right: 170px;
-        color: $white;
-    }
+.banner {
+  width: 100%;
+  height: 30vh;
+}
 
-    .centered {
-        position: absolute;
-        top: 45%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-      
+.heading {
+  color: $color-secondary;
+  font-size: $font-xl;
+}
 
-    .left
-    {
-        height: 100vh;
-        background-color: black;
-    }
+.border-radius {
+  border-radius: 8rem;
+}
 
-    .right
-    {
-        height: 100vh;  
-        background-color: white;
-    }
+.image {
+  display: block;
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
 
-    .subtext
-    {
-        padding-top: 3rem;
-        font-size: $font-l;
-        color: $black;
-    }
-
-    .small-subtext
-    {
-        font-size: $font-s;
-        padding-top: 2rem;
-        color: $black;
-    }
-
+@media (min-width: 992px) {
+  .banner {
+    height: 25vh;
+  }
 }

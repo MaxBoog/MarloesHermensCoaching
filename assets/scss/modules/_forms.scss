@@ -1,61 +1,99 @@
 input[type="text"] {
-    border: none !important;
-    border-radius: 0 !important;
-    padding: 1.5rem !important;
-    font-size: $font-s !important;
-    transition: 0.5s ease;
-    outline: none;
-    box-shadow: none !important;
-    color: white !important;
-    border-bottom: 2px solid $grey !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 2rem !important;
+  font-size: $font-s !important;
+  transition: 0.5s ease;
+  outline: none;
+  box-shadow: none !important;
+  color: black !important;
+  border: 2px solid $color-secondary !important;
+  background-color: transparent;
+  &:focus {
+    border: 2px solid $color-primary !important;
+    outline-color: transparent !important;
     background-color: transparent;
-    &:focus {
-        border-bottom: 2px solid $purple !important;
-        outline-color: transparent !important;
-        background-color: transparent;
-    }
+  }
 }
 
 input[type="email"] {
-    @extend input[type="text"];
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 2rem !important;
+  font-size: $font-s !important;
+  transition: 0.5s ease;
+  outline: none;
+  box-shadow: none !important;
+  color: black !important;
+  border: 2px solid $color-secondary !important;
+  background-color: transparent;
+  &:focus {
+    border: 2px solid $color-primary !important;
+    outline-color: transparent !important;
+    background-color: transparent;
+  }
 }
 
 input[type="tel"] {
-    @extend input[type="text"];
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 2rem !important;
+  font-size: $font-s !important;
+  transition: 0.5s ease;
+  outline: none;
+  box-shadow: none !important;
+  color: black !important;
+  border: 2px solid $color-secondary !important;
+  background-color: transparent;
+  &:focus {
+    border: 2px solid $color-primary !important;
+    outline-color: transparent !important;
+    background-color: transparent;
+  }
 }
 
 input::placeholder {
-    color: white !important;
+  color: $black !important;
 }
 
 textarea {
-    @extend input[type="text"];
-    border: 2px solid $grey !important;
-    background-color: $black !important;
-    &:focus {
-        border: 2px solid $purple !important;
-    }
+  border-radius: 0 !important;
+  padding: 1.5rem !important;
+  font-size: $font-s !important;
+  transition: 0.5s ease;
+  outline: none;
+  box-shadow: none !important;
+  color: white !important;
+  border: 2px solid $color-secondary !important;
+  &:focus {
+    border: 2px solid $color-primary !important;
+    outline-color: transparent !important;
+    background-color: transparent;
+  }
+  background-color: $white !important;
+  &:focus {
+    border: 2px solid $color-primary !important;
+  }
 }
 
 .form-group {
-    margin: 2rem 0 !important;
+  margin: 2rem 0 !important;
 }
 
 .help-block {
-    color: $red;
+  color: $red;
 }
 
 .hidden {
-    display: none;
-  }
+  display: none;
+}
 
-  .btn-send
-  {
-      @extend .btn-cta-primary;
-      border: 1px solid $purple !important;
-      color: white;
-      &:hover
-      {
-          color: white;
-      }
+.btn-send {
+  @extend .btn-cta-primary;
+  border: 2px solid $color-primary !important;
+  color: $black;
+  &:hover {
+    background-color: $color-primary;
+    color: $white;
   }
+}
