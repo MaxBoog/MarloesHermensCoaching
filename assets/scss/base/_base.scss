@@ -31,6 +31,7 @@ h3,
 h4,
 h5 {
   font-family: $f-secondary;
+  color: $color-secondary;
 }
 
 // BASE
@@ -47,4 +48,8 @@ a {
 }
 .font-s {
   font-size: $font-s;
+}
+
+.font-xl {
+  font-size: $font-xl;
 }

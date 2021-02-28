@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 	Marloes Hermens Coaching
 	Designer: Max Boog
@@ -42,6 +43,7 @@ h3,
 h4,
 h5 {
   font-family: "RocknRoll One", sans-serif;
+  color: #111d5e;
 }
 
 a {
@@ -57,6 +59,10 @@ a:hover {
 
 .font-s {
   font-size: 18px;
+}
+
+.font-xl {
+  font-size: 42px;
 }
 
 /* MODULES - Individual site components */
@@ -501,21 +507,32 @@ nav.shrink {
 
 .heading {
   color: #111d5e;
-  font-size: 42px;
 }
 
-.border-radius {
-  border-radius: 10px;
+.sub-header {
+  color: #f37121;
 }
 
-.image {
-  max-width: 350px;
-  border-radius: 4rem;
+.sub-header:before {
+  content: "“";
+  color: #111d5e;
+  font-size: 26px;
+  font-family: monospace;
+  font-weight: 100;
+}
+
+.sub-header:after {
+  content: "”";
+  color: #111d5e;
+  font-size: 26px;
+  font-family: monospace;
+  font-weight: 100;
+  line-height: 0;
 }
 
 @media (min-width: 992px) {
   .banner {
-    height: 25vh;
+    height: 30vh;
   }
 }
 .footer {

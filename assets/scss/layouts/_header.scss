@@ -10,20 +10,31 @@
 
 .heading {
   color: $color-secondary;
-  font-size: $font-xl;
 }
 
-.border-radius {
-  border-radius: 10px;
+.sub-header {
+  color: $color-primary;
 }
 
-.image {
-  max-width: 350px;
-  border-radius: 4rem;
+.sub-header:before {
+  content: "“";
+  color: $color-secondary;
+  font-size: 26px;
+  font-family: monospace;
+  font-weight: 100;
+}
+
+.sub-header:after {
+  content: "”";
+  color: $color-secondary;
+  font-size: 26px;
+  font-family: monospace;
+  font-weight: 100;
+  line-height: 0;
 }
 
 @media (min-width: 992px) {
   .banner {
-    height: 25vh;
+    height: 30vh;
   }
 }
