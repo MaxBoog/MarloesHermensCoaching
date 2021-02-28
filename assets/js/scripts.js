@@ -17,8 +17,9 @@ $(window).scroll(function () {
 
 // jquery easing
 
+jQuery.easing.jswing=jQuery.easing.swing,jQuery.extend(jQuery.easing,{def:"easeOutQuad",easeOutExpo:function(e,n,u,a,s){return n==s?u+a:a*(1-Math.pow(2,-10*n/s))+u}});
+
 $(document).ready(function () {
-	$("body").scrollspy({ target: ".navbar", offset: 70 });
 
 	$("a").on("click", function (event) {
 		if (this.hash !== "") {
@@ -40,6 +41,3 @@ $(document).ready(function () {
 		}
 	});
 });
-
-// slides
-

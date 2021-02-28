@@ -42,42 +42,9 @@ a {
   }
 }
 
-// borders
-
-.border-5 {
-  border: 3px solid $black;
+.font-xs {
+  font-size: $font-xs;
 }
-
-// colors
-
-.black {
-  background-color: $black;
-}
-
-.grey {
-  background-color: $grey;
-}
-
-.light-grey {
-  background-color: $light-grey;
-}
-
-.blue {
-  background-color: $blue;
-}
-
-.white {
-  background-color: $white;
-}
-
-.green {
-  background-color: $green;
-}
-
-.red {
-  background-color: $red;
-}
-
-.purple {
-  background-color: $purple;
+.font-s {
+  font-size: $font-s;
 }

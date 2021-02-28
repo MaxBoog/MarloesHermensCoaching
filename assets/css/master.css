@@ -51,40 +51,12 @@ a:hover {
   text-decoration: none;
 }
 
-.border-5 {
-  border: 3px solid #222222;
+.font-xs {
+  font-size: 14px;
 }
 
-.black {
-  background-color: #222222;
-}
-
-.grey {
-  background-color: #5b5656;
-}
-
-.light-grey {
-  background-color: #9c9797;
-}
-
-.blue {
-  background-color: #2e279d;
-}
-
-.white {
-  background-color: #ffffff;
-}
-
-.green {
-  background-color: #52de97;
-}
-
-.red {
-  background-color: #be3030;
-}
-
-.purple {
-  background-color: #8b2f97;
+.font-s {
+  font-size: 18px;
 }
 
 /* MODULES - Individual site components */
@@ -148,12 +120,8 @@ a:hover {
   color: #9c9797;
 }
 
-.col-padding {
-  padding: 15rem;
-}
-
-.col-black-grey {
-  background: linear-gradient(130deg, #222222 50%, black 50%);
+.marketing-icon {
+  color: #f37121;
 }
 
 .card {
@@ -537,15 +505,12 @@ nav.shrink {
 }
 
 .border-radius {
-  border-radius: 8rem;
+  border-radius: 10px;
 }
 
 .image {
-  display: block;
-  max-width: 400px;
-  max-height: 400px;
-  width: auto;
-  height: auto;
+  max-width: 350px;
+  border-radius: 4rem;
 }
 
 @media (min-width: 992px) {
@@ -555,4 +520,8 @@ nav.shrink {
 }
 .footer {
   margin: 10rem;
+}
+.footer .algemene-voorwaarden {
+  font-size: 14px;
+  color: #5b5656 !important;
 }
