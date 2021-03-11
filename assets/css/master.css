@@ -153,6 +153,95 @@ a:hover {
     transform: rotate(360deg);
   }
 }
+.carousel-heading {
+  text-align: center;
+  font-family: "RocknRoll One", sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 5rem 0;
+}
+
+.carousel {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.carousel .carousel-item {
+  color: #5b5656;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 340px;
+}
+
+.carousel .carousel-item a {
+  color: #5b5656;
+}
+
+.carousel .testimonial {
+  padding: 5rem 1rem 0 1rem;
+}
+
+.carousel .overview {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.carousel .overview b {
+  color: #222222;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #9c9797;
+  text-shadow: none;
+  top: -10px;
+  margin: 0 10px;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  font-size: 20px;
+  margin-right: 2px;
+}
+
+.carousel-control-prev {
+  left: auto;
+  right: 40px;
+}
+
+.carousel-control-next i {
+  margin-right: -2px;
+}
+
+.carousel .carousel-indicators {
+  bottom: 3rem;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+  width: 11px;
+  height: 11px;
+  margin: 1px 5px;
+}
+
+.carousel-indicators li {
+  background: #9c9797;
+  border: none;
+}
+
+.carousel-indicators li.active {
+  background: #5b5656;
+}
+
 input[type=text] {
   border: none !important;
   border-radius: 0 !important;

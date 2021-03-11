@@ -20,7 +20,7 @@ jQuery.easing.jswing=jQuery.easing.swing,jQuery.extend(jQuery.easing,{def:"easeO
 
 $(document).ready(function () {
 
-	$("a").on("click", function (event) {
+	$("li>a[href*='#']").on("click", function (event) {
 		if (this.hash !== "") {
 			event.preventDefault();
 
