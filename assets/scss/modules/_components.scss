@@ -131,5 +131,88 @@
   border: none;
 }
 .carousel-indicators li.active {
-  background: $gray;
+  background: $color-secondary;
 }
+
+
+.accordion
+{
+	.card
+	{
+		border-radius: 0px;
+		.card-header
+		{
+			.btn-link
+			{
+				color: $color-primary;
+				font-family: $f-secondary;
+				width: 100%;
+    			position: relative;
+    			text-align: left;
+                font-size: $font-m;
+				
+				&:hover
+				{
+					text-decoration: none !important;
+				}
+
+				&:active
+				{
+					text-decoration: none !important;
+				}
+
+				&:focus
+				{
+					text-decoration: none !important;
+				}
+				
+			}
+			.btn-link::before {
+				content: '';
+				width: 14px;
+				height: 2px;
+				background: $color-secondary;
+				position: absolute;
+				top: calc(50% - 1px);
+				right: 1rem;
+				display: block;
+				transition: all 0.3s;
+			  }
+			  .btn-link::after {
+				content: '';
+				width: 2px;
+				height: 14px;
+				background: $color-secondary;
+				position: absolute;
+				top: calc(50% - 7px);
+				right: calc(1rem + 6px);
+				display: block;
+				transition: all 0.3s;
+			  }
+			  .btn-link[aria-expanded='true']::after {
+				transform: rotate(90deg) translateX(-1px);
+			  }
+			  
+			  .btn-link[aria-expanded='true']::before {
+				transform: rotate(180deg);
+			  } 
+		}
+
+		.card-body
+		{
+			font-size: 1.5rem;
+		}
+	}
+}
+
+.collapsible-link::before {
+	content: '';
+	width: 14px;
+	height: 2px;
+	background: #333;
+	position: absolute;
+	top: calc(50% - 1px);
+	right: 1rem;
+	display: block;
+	transition: all 0.3s;
+  }

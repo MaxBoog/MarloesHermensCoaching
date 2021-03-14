@@ -239,7 +239,71 @@ a:hover {
 }
 
 .carousel-indicators li.active {
-  background: #5b5656;
+  background: #111d5e;
+}
+
+.accordion .card {
+  border-radius: 0px;
+}
+.accordion .card .card-header .btn-link {
+  color: #f37121;
+  font-family: "RocknRoll One", sans-serif;
+  width: 100%;
+  position: relative;
+  text-align: left;
+  font-size: 24px;
+}
+.accordion .card .card-header .btn-link:hover {
+  text-decoration: none !important;
+}
+.accordion .card .card-header .btn-link:active {
+  text-decoration: none !important;
+}
+.accordion .card .card-header .btn-link:focus {
+  text-decoration: none !important;
+}
+.accordion .card .card-header .btn-link::before {
+  content: "";
+  width: 14px;
+  height: 2px;
+  background: #111d5e;
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 1rem;
+  display: block;
+  transition: all 0.3s;
+}
+.accordion .card .card-header .btn-link::after {
+  content: "";
+  width: 2px;
+  height: 14px;
+  background: #111d5e;
+  position: absolute;
+  top: calc(50% - 7px);
+  right: calc(1rem + 6px);
+  display: block;
+  transition: all 0.3s;
+}
+.accordion .card .card-header .btn-link[aria-expanded=true]::after {
+  transform: rotate(90deg) translateX(-1px);
+}
+.accordion .card .card-header .btn-link[aria-expanded=true]::before {
+  transform: rotate(180deg);
+}
+.accordion .card .card-body {
+  font-size: 1.5rem;
+}
+
+.collapsible-link::before {
+  content: "";
+  width: 14px;
+  height: 2px;
+  background: #333;
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 1rem;
+  display: block;
+  transition: all 0.3s;
 }
 
 input[type=text] {
