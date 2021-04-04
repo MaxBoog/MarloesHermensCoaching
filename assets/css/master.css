@@ -66,6 +66,10 @@ a:hover {
 }
 
 /* MODULES - Individual site components */
+.img-marloes {
+  max-width: 40rem;
+}
+
 .btn {
   border: none;
 }
